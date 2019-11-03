@@ -1,0 +1,29 @@
+<div class="container">
+  <header>
+    <span><b>My Guitar Shop</b></span>
+  </header>
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-2 text_left">
+          <span>Links</span>
+          <p><a href="#" [routerLink]="['/home']">View Cart</a></p>
+          <p><a href="#" [routerLink]="['/home']">Login/Register</a></p>
+          <p><a href="#">Home</a></p>
+          <span>Categories</span>
+          <p><a href="#">Guitar</a></p>
+          <p><a href="#">Basses</a></p>
+          <p><a href="#">Drums</a></p>
+          <span>Temp Links</span>
+          <p><a href="#">Admin</a></p>
+        </div>
+        <div class="col-md-10">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-right">
+    <p>2010 My Guitar Shop</p>
+  </div>
+</div>
